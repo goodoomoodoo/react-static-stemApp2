@@ -1,6 +1,8 @@
 import React from 'react';
 
-import '../style/Navbar.css';
+import { Link } from 'react-static';
+
+import '../../style/Navbar.css';
 
 class Navbar extends React.Component
 {
@@ -14,13 +16,13 @@ class Navbar extends React.Component
                 <div className='menu'>
                     <ul>
                         <li>
-                            About
+                            <Link to='info#0'>About</Link>
                         </li>
                         <li>
-                            Contact
+                            <Link to='info#1'>Contact</Link>
                         </li>
                         <li>
-                            More
+                            <Link to='info'>More</Link>
                         </li>
                     </ul>
                 </div>

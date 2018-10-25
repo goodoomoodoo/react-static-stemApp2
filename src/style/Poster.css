@@ -15,12 +15,13 @@
     background-clip: content-box;
 }
 
-.text {
+.mark .text {
     padding: 1em;
     padding-top: 0;
     color: #434343;
 }
 
-.text h3 {
+.mark .text h3 {
     font-weight: lighter;
+    border-bottom: solid 1px currentColor;
 }

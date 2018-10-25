@@ -1,0 +1,18 @@
+.quote {
+    position: relative;
+    width: 95%;
+    max-width: 40em;
+    background: #EFEBEB;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.quote .text {
+    padding: .5em;
+    padding-left: 1em;
+    color: #434343;
+}
+
+.quote h3 {
+    font-weight: lighter;
+}

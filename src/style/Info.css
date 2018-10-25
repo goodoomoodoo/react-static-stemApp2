@@ -1,0 +1,8 @@
+.info {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 30em;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}

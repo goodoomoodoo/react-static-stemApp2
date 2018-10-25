@@ -40,3 +40,8 @@
 .menu li:hover {
     text-decoration: underline;
 }
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}

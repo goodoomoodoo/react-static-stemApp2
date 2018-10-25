@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style/Poster.css';
+import '../../style/Poster.css';
 
 class Poster extends React.Component
 {
@@ -15,14 +15,14 @@ class Poster extends React.Component
                 </div>
                 <div className='mark'>
                     <div className='text'>
-                            <h3>Next Event</h3>
-                        </div>
+                        <h3>Next Event</h3>
                     </div>
+                </div>
                 <div className='mark'>
                     <div className='text'>
-                            <h3>Find Us</h3>
-                        </div>
+                        <h3>Find Us</h3>
                     </div>
+                </div>
             </div>
         );
     }

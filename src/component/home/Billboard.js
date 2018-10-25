@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style/Billboard.css';
+import '../../style/Billboard.css';
 
 class Billboard extends React.Component
 {
