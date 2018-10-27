@@ -1,5 +1,7 @@
 import React from 'react';
 
+import rocket from '../../rocket.png';
+
 import '../../style/Billboard.css';
 
 class Billboard extends React.Component
@@ -8,7 +10,10 @@ class Billboard extends React.Component
     {
         return (
             <div className='billboard'>
-                
+                <div className='rocketLauncher'>
+                    <img className='rocket' src={rocket} />
+                </div>
+                <h1>Better Than Merely.</h1>
             </div>
         );
     }
