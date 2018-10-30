@@ -15,10 +15,10 @@ class Sidebar extends React.Component
                 </div>
                 <ul>
                     <li>
-                        <a href='#0'>About</a>
+                        <Link to='/info/about'>About</Link>
                     </li>
                     <li>
-                        <a href='#1'>Events</a>
+                        <Link to='/info/events'>Events</Link>
                     </li>
                     <li>
                         Contact

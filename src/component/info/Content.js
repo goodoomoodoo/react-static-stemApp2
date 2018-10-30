@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactMarkDown from 'react-markdown';
 
+import { Route } from 'react-static';
+
 import eventMD from '../../content/Event.md';
 import aboutMD from '../../content/About.md';
 
@@ -40,12 +42,15 @@ class Content extends React.Component
 
     render()
     {
+        let nameArr = [ 'about', 'events', 'contact' ];
+
         return (
             <div className='content'>
                 <div className='text'>
                     {
                         this.state.content.map( ( text, index ) => {
-                            return (<div key={index} id={index}><ReactMarkDown source={text} /></div>)
+                            return (<Route path={`/info/${nameArr[ index ]}`} key={index} 
+                                render={() => <ReactMarkDown source={text} />}/>)
                         })
                     }
                 </div>

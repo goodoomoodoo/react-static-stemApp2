@@ -8,13 +8,18 @@ import Footer from '../Footer';
 
 class Info extends React.Component
 {
+    constructor( props )
+    {
+        super( props );
+    }
+    
     render()
     {
         return (
             <div>
                 <div className='info'>
                     <Sidebar />
-                    <Content />
+                    <Content props={this.props} />
                 </div>
                 <Footer />
             </div>

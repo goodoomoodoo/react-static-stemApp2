@@ -16,13 +16,13 @@ class Navbar extends React.Component
                 <div className='menu'>
                     <ul>
                         <li>
-                            <Link to='info#0'>About</Link>
+                            <Link to='info/about'>About</Link>
                         </li>
                         <li>
-                            <Link to='info#1'>Contact</Link>
+                            <Link to='info/contact'>Contact</Link>
                         </li>
                         <li>
-                            <Link to='info'>More</Link>
+                            <Link to='info/more'>More</Link>
                         </li>
                     </ul>
                 </div>
